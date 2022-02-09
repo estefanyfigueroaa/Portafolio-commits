@@ -1,24 +1,88 @@
 body{
-    background-image:url(imagenes2/fondomarmol.jpg);
+    font-family:'Caudex', serif;
+    background-image:url(Imagenes\ 2/fondomarmol.jpg);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
-
-.contendores{
-    padding: 60px 0;
-    margin: auto;
-    width: 100%;
-    max-width: 1000px;
-    overflow: hidden;
+header{
     background-color: #f9fafa;
+    border: #16171a;
+    border-style: solid;
+    border-width: 2px;
    
 }
-.contendores2{
-    padding: 60px 0;
+nav{
+    text-align: center;
+    padding: auto;
+    
+}
+nav>a{
+    color: #16171a;
+    font-size: 20px;
+    text-decoration: none;
+    margin-inline: 100px;
+}
+.Descripcion{
+    padding: 20px;
     margin: auto;
     width: 100%;
     max-width: 1000px;
     overflow: hidden;
-    background-color: #20303c;
-   
+    
 }
 
+
+.Recomendaciones{
+    padding: 8px 0;
+    margin: auto;
+    width: 100%;
+    max-width: 3000px;
+    overflow: hidden;
+    
+   
+}
+.Trabajos{
+    padding: 10px 0;
+    margin: auto;
+    width: 10000px;
+    max-width: 30000px;
+    overflow: hidden;
+    
+}
+.Contenedores{
+    padding: 5px 0;
+    background-color: #f9fafa;
+    color:#16171a;
+}
+.Contenedores2{
+    padding: 3px 0;
+    background-color: #16171a;
+    color: #f9fafa; 
+    
+}
+.Titulo2{
+    text-align: center;
+    font-size: 30px;
+}
+.Titulo{
+    text-align: center;
+    font-size: 40px;
+}
+.caja1{
+    max-width: 1000px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    padding: 3px;
+    background-color: #f9fafa;
+    text-align: right;
+    color: #16171a;
+}
+.box1{
+    border-style: solid;
+    border-color: #16171a;
+    border-width: 2px;
+    margin: 5px;
+    padding: 3px;
+}
