@@ -1,8 +1,24 @@
+body{
+    background-image:url(imagenes2/fondomarmol.jpg);
+
+}
+
 .contendores{
     padding: 60px 0;
     margin: auto;
     width: 100%;
     max-width: 1000px;
     overflow: hidden;
-
+    background-color: #f9fafa;
+   
 }
+.contendores2{
+    padding: 60px 0;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+    background-color: #20303c;
+   
+}
+
