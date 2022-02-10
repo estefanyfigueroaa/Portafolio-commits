@@ -15,14 +15,22 @@ header{
 }
 nav{
     text-align: center;
-    padding: auto;
-    
+    padding: auto;  
 }
 nav>a{
     color: #16171a;
     font-size: 20px;
     text-decoration: none;
-    margin-inline: 100px;
+    border: #16171a;
+    border-style: solid;
+    border-bottom: transparent;
+    padding: 0px 106px;
+    margin-inline: 0px;
+
+}
+nav>:hover{color: #16171a;
+    font-size: 20px;
+    text-decoration: underline;
 }
 .Descripcion{
     padding: 20px;
