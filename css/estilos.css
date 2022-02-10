@@ -33,13 +33,20 @@ nav>:hover{color: #16171a;
     text-decoration: underline;
 }
 .Descripcion{
+    text-align: center;
     padding: 20px;
     margin: auto;
     width: 100%;
     max-width: 1000px;
     overflow: hidden;
+    align-items: center;
     
 }
+.Imagenprincipal{
+    height: 30%;
+    width: 30%;
+}
+
 
 
 .Recomendaciones{
@@ -104,6 +111,7 @@ nav>:hover{color: #16171a;
     margin-block-start: 50px;
     font-size: large;
 }
+/* Contact page */
 .Info{
     text-align: center;
 
