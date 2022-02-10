@@ -94,3 +94,14 @@ nav>:hover{color: #16171a;
     margin: 5px;
     padding: 3px;
 }
+.Contacto{
+    padding: 3px 0;
+    background-color: #16171a;
+    color: #f9fafa;
+}
+.Info{
+    padding: 3px 0;
+    background-color: #f9fafa;
+    color: #16171a;
+
+}
