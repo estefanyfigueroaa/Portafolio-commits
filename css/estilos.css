@@ -25,7 +25,7 @@ nav>a{
     border-style: solid;
     border-bottom: transparent;
     padding: 0px 106px;
-    margin-inline: 0px;
+    
 
 }
 nav>:hover{color: #16171a;
@@ -95,13 +95,37 @@ nav>:hover{color: #16171a;
     padding: 3px;
 }
 .Contacto{
+    text-align: center;
+   
     padding: 3px 0;
     background-color: #16171a;
     color: #f9fafa;
+    width: 100%;
+    margin-block-start: 50px;
+    font-size: large;
 }
 .Info{
+    text-align: center;
+
     padding: 3px 0;
     background-color: #f9fafa;
     color: #16171a;
+    width: 100%;
+    
+    margin-block-start: 50px;
+    object-fit: contain
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+img{
+    height: 5%;
+    width: 5%;
+    object-fit: contain;
+}
+.circleimage{
+    height: 18%;
+    width: 18%;
 
 }
