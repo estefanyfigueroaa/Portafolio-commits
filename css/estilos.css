@@ -1,47 +1,63 @@
 body{
     font-family:'Caudex', serif;
+    /* Backgorund settings */
     background-image:url(Imagenes\ 2/fondomarmol.jpg);
+    /* Esto es para el efecto de que se mueve */
     position: relative;
     background-size: cover;
     background-attachment: fixed;
 
 }
+/* Menu de inicio parte de arriba */
 header{
     background-color: #f9fafa;
+/* Borde del cuadro grande de navegacion */
     border: #16171a;
     border-style: solid;
     border-width: 2px;
    
 }
+
 nav{
+/* Centro el menu de navegacion */
     text-align: center;
     padding: auto;  
 }
 nav>a{
+/* Edito cada cuadrito de texto de navegacion */
     color: #16171a;
     font-size: 20px;
+/* Con este le quito lo subrayado */
     text-decoration: none;
+/* Agrego borde a cada cuadrito */
     border: #16171a;
     border-style: solid;
     border-bottom: transparent;
+/* Lo centro */
     padding: 0px 106px;
     
-
+/* Hover es cuando pasas el click encima del cuadrito */
 }
 nav>:hover{color: #16171a;
     font-size: 20px;
     text-decoration: underline;
 }
+/* Pagina de inicio */
 .Descripcion{
+/* Alineo el texto con la caja */
     text-align: center;
     padding: 20px;
     margin: auto;
+/* Tamano de la caja y el maximo de ancho que quiero */
     width: 100%;
     max-width: 1000px;
+/* Overflow para que lo que no quepa solo se oculte */
     overflow: hidden;
+/* Alineo l */
     align-items: center;
     
 }
+/* Arreglo el tamano de la imagen */
 .Imagenprincipal{
     height: 30%;
     width: 30%;
@@ -50,6 +66,7 @@ nav>:hover{color: #16171a;
 
 
 .Recomendaciones{
+    /* Arreglo el tamano, los margenes */
     padding: 8px 0;
     margin: auto;
     width: 100%;
@@ -66,6 +83,7 @@ nav>:hover{color: #16171a;
     overflow: hidden;
     
 }
+/* Hice contenedores para agregarle el color a cada uno */
 .Contenedores{
     padding: 5px 0;
     background-color: #f9fafa;
@@ -85,8 +103,10 @@ nav>:hover{color: #16171a;
     text-align: center;
     font-size: 40px;
 }
+/* Hago una cajita para cada recomendacion */
 .caja1{
     max-width: 1000px;
+/* Margin para separarlas */
     margin-bottom: 10px;
     margin-left: 300px;
     padding: 3px;
@@ -94,6 +114,7 @@ nav>:hover{color: #16171a;
     text-align: right;
     color: #16171a;
 }
+/* Hago las cajitas de mi trabajo y les pongo borde */
 .box1{
     border-style: solid;
     border-color: #16171a;
@@ -101,6 +122,7 @@ nav>:hover{color: #16171a;
     margin: 5px;
     padding: 3px;
 }
+
 .Contacto{
     text-align: center;
    
@@ -119,19 +141,23 @@ nav>:hover{color: #16171a;
     background-color: #f9fafa;
     color: #16171a;
     width: 100%;
-    
+    /* Le agrego un margen q se acopla a otros elementos */
     margin-block-start: 50px;
+    /* Hago que el contenido se ajuste al tamano */
     object-fit: contain
 }
+/* Ajusto las cajitas de los inputs */
 label{
     display: inline-block;
     width: 100px;
 }
+/* Ajusto el tamno de las imagenes en general */
 img{
     height: 5%;
     width: 5%;
     object-fit: contain;
 }
+/* Ajusto el tamano de la imagen del circulo */
 .circleimage{
     height: 18%;
     width: 18%;
