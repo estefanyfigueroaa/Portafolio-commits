@@ -163,3 +163,27 @@ img{
     width: 18%;
 
 }
+.A{
+    float: left;
+    padding: 5px;
+    background-color: #16171a;
+    width: 650px;
+    color: #f9fafa;
+    border: #f9fafa;
+    border-spacing: 2px;
+    border-style: solid;
+    
+}
+
+.B{
+    float: right;
+    padding: 5px;
+    background-color: whitesmoke;
+    width: 650px;
+    color: #16171a;
+    border: #16171a;
+    border-style: solid;
+   
+
+}
+        
