@@ -38,9 +38,11 @@ nav>a{
     
 /* Hover es cuando pasas el click encima del cuadrito */
 }
-nav>:hover{color: #16171a;
+nav>:hover{
+    background-color: #16171a;
+    color: #f9fafa;
     font-size: 20px;
-    text-decoration: underline;
+    
 }
 /* Pagina de inicio */
 .Descripcion{
@@ -153,8 +155,8 @@ label{
 }
 /* Ajusto el tamno de las imagenes en general */
 img{
-    height: 5%;
-    width: 5%;
+    height: 25%;
+    width: 25%;
     object-fit: contain;
 }
 /* Ajusto el tamano de la imagen del circulo */
@@ -182,8 +184,59 @@ img{
     width: 650px;
     color: #16171a;
     border: #16171a;
+    border-style: solid;  
+    margin-bottom: 10px;
+}
+.Formacion{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #16171a;
+    opacity: 0.9;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+    color: #f9fafa;
+}
+.left{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 640px;
+    background-color: #f9fafa;
+    color: #16171a;
+    text-align: center;
+    padding: 5px;
     border-style: solid;
    
-
 }
-        
+.rigth{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 640px;
+    background-color: #f9fafa;
+    color: #16171a;
+    text-align: center;
+    padding: 5px;
+    border-style: solid;
+}
+.Aficiones{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #16171a;
+    opacity: 0.9;
+    text-align: center;
+    padding: 5px;
+    clear: both;
+    color: #f9fafa;
+}
+.Form{
+    height: 20%;
+    width: 20%;
+    
+}
+.logo{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
